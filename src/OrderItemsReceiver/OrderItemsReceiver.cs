@@ -1,11 +1,11 @@
-﻿using Azure.Storage.Blobs;
-using Microsoft.Azure.WebJobs;
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using Azure.Storage.Blobs;
+using Microsoft.Azure.WebJobs;
 
-namespace OrdersItemsReceiver
+namespace OrderItemsReceiver
 {
     public static class OrderItemsReceiver
     {
